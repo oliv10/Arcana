@@ -1,0 +1,16 @@
+[
+{
+  "modid": "arcana",
+  "name": "Arcana",
+  "description": "Magic Mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["revrocker99"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

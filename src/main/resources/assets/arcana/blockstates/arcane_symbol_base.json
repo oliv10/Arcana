@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "arcana:arcane_symbol_base"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
