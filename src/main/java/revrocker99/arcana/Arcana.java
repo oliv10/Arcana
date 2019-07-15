@@ -6,13 +6,14 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = Arcana.MODID, name = Arcana.NAME, version = Arcana.VERSION, acceptedMinecraftVersions = Arcana.MC_VERSION)
+@Mod(modid = Arcana.MODID, name = Arcana.NAME, version = Arcana.VERSION, acceptedMinecraftVersions = Arcana.MC_VERSION, dependencies = Arcana.DEPEND)
 public class Arcana {
 
     public static final String MODID = "arcana";
     public static final String NAME = "Arcana";
     public static final String VERSION = "0.0.1";
     public static final String MC_VERSION = "[1.12.2]";
+    public static final String DEPEND = "required-after:autoreglib";
 
     public static final CreativeTabs CREATIVE_TAB = CreativeTabs.MISC;
 

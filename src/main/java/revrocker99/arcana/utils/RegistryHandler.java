@@ -19,7 +19,7 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         final Block[] blocks = {
-                new BaseBlock(Material.CLOTH, SoundType.CLOTH, "arcane_symbol_base")
+                new BaseBlock(Material.CIRCUITS, SoundType.CLOTH, "arcane_symbol_base")
         };
 
         event.getRegistry().registerAll(blocks);
