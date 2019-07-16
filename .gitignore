@@ -17,6 +17,7 @@ Thumbs.db
 /bin
 
 ## intellij
+.idea
 /out
 /.idea
 /atlassian-ide-plugin.xml
