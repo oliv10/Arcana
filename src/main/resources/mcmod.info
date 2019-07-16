@@ -2,15 +2,15 @@
 {
   "modid": "arcana",
   "name": "Arcana",
-  "description": "Magic Mod.",
+  "description": "Use arcane symbols to craft new item and summon entities.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["revrocker99"],
-  "credits": "",
+  "credits": "Blood Magic / WayofTime and AutoRegLib / Vazkii",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["AutoRegLib-1.3-31"]
 }
 ]

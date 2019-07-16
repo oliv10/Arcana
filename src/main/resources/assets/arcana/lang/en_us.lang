@@ -1,4 +1,5 @@
 # Items
-item.arcana.arcane_ash.name=Arcane Ash
+item.arcana.item_ash.name=Ash
 
 # Blocks
+tile.arcana.block_ash.name=Ash Dust

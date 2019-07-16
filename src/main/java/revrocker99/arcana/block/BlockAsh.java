@@ -7,29 +7,38 @@ import net.minecraft.world.IBlockAccess;
 import revrocker99.arcana.Arcana;
 import vazkii.arl.block.BlockModDust;
 
+import java.util.Random;
+
+// TODO Add textures.
 public class BlockAsh extends BlockModDust {
 
     public static final String ITEM_ID = "block_ash";
 
     public BlockAsh() {
-        super(Arcana.MOD_ID + ITEM_ID);
+        super(ITEM_ID);
 
         this.setCreativeTab(Arcana.CREATIVE_TAB);
 
-//        this.setRegistryName(Arcana.MOD_ID + ITEM_ID);
-//        this.setTranslationKey(Arcana.MOD_ID + "." + ITEM_ID);
-
         this.setSoundType(SoundType.CLOTH);
-
-    }
-
-    @Override
-    public int getColor(IBlockAccess world, IBlockState state, BlockPos pos, int tint) {
-        return 0;
     }
 
     @Override
     public String getModNamespace() {
         return Arcana.MOD_ID;
+    }
+
+    @Override
+    public int getColor(IBlockAccess world, IBlockState state, BlockPos pos, int tint) {
+        return 0x222222;
+    }
+
+    /**
+     * makes not drop item on destruction.
+     * @param random
+     * @return 0
+     */
+    @Override
+    public int quantityDropped(Random random) {
+        return 0;
     }
 }
