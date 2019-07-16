@@ -8,9 +8,9 @@ public class ItemUtils {
 
     public Item setID(Item item, String ID) {
 
-        item.setRegistryName(Arcana.MODID, ID);
-        item.setTranslationKey(Arcana.MODID + "." + ID);
-        item.setCreativeTab(CreativeTabs.MISC); //TODO Add Custom Creative Tab
+        item.setRegistryName(Arcana.MOD_ID, ID);
+        item.setTranslationKey(Arcana.MOD_ID + "." + ID);
+        item.setCreativeTab(CreativeTabs.MISC);
 
         return item;
     }

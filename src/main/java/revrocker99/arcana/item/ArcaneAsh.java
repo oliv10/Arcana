@@ -18,7 +18,7 @@ public class ArcaneAsh extends BaseItem {
 
     public ArcaneAsh(String itemID){
         super(itemID);
-        setMaxDamage(15);
+        setMaxDamage(19);
         setMaxStackSize(1);
     }
 

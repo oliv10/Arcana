@@ -10,12 +10,12 @@ import net.minecraftforge.fml.relauncher.Side;
 import revrocker99.arcana.Arcana;
 import revrocker99.arcana.init.ModItems;
 
-@Mod.EventBusSubscriber(value = Side.CLIENT, modid = Arcana.MODID)
+@Mod.EventBusSubscriber(value = Side.CLIENT, modid = Arcana.MOD_ID)
 public class ModelRegistrationHandler {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        registerModel(ModItems.ARCANE_ASH, 0);
+//        registerModel(ModItems.ARCANE_ASH, 0);
     }
 
     private static void registerModel(Item item, int meta) {

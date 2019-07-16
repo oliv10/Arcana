@@ -9,10 +9,10 @@ import revrocker99.arcana.Arcana;
 import revrocker99.arcana.item.ArcaneAsh;
 import revrocker99.arcana.item.BaseItem;
 
-@ObjectHolder(Arcana.MODID)
+@ObjectHolder(Arcana.MOD_ID)
 public class ModItems {
 
-    public static final Item ARCANE_ASH = null;
-    public static final Item TEST_ITEM = null;
+//    public static final Item ARCANE_ASH = null;
+//    public static final Item TEST_ITEM = null;
 
 }

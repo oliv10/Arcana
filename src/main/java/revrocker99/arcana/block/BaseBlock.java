@@ -9,10 +9,10 @@ public class BaseBlock extends Block {
 
     public BaseBlock(Material material, SoundType sound, String itemID) {
         super(material);
-        setRegistryName(Arcana.MODID, itemID);
-        setTranslationKey(Arcana.MODID + "." + itemID);
+        setRegistryName(Arcana.MOD_ID, itemID);
+        setTranslationKey(Arcana.MOD_ID + "." + itemID);
         setSoundType(sound);
-        setCreativeTab(Arcana.CREATIVE_TAB); //TODO Add Custom Creative Tab
+        setCreativeTab(Arcana.CREATIVE_TAB);
     }
 
 }

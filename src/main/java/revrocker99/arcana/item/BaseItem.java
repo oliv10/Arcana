@@ -7,9 +7,9 @@ import revrocker99.arcana.Arcana;
 public class BaseItem extends Item {
 
     public BaseItem(String itemID){
-        setRegistryName(Arcana.MODID, itemID);
-        setTranslationKey(Arcana.MODID + "." + itemID);
-        setCreativeTab(Arcana.CREATIVE_TAB); //TODO Add Custom Creative Tab
+        setRegistryName(Arcana.MOD_ID, itemID);
+        setTranslationKey(Arcana.MOD_ID + "." + itemID);
+        setCreativeTab(Arcana.CREATIVE_TAB);
     }
 
 }
