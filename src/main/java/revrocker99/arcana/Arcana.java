@@ -10,6 +10,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import revrocker99.arcana.block.BlockAsh;
 import revrocker99.arcana.item.ItemAsh;
+import revrocker99.arcana.item.ItemCursedStone;
 import vazkii.arl.util.ProxyRegistry;
 
 @Mod(modid = Arcana.MOD_ID, name = Arcana.NAME, version = Arcana.VERSION, acceptedMinecraftVersions = Arcana.MC_VERSION, dependencies = Arcana.DEPEND)
@@ -33,6 +34,7 @@ public class Arcana {
         LOGGER.info(Arcana.NAME + " has started loading Blocks and Items.");
         ProxyRegistry.register(new BlockAsh());
         ProxyRegistry.register(new ItemAsh());
+        ProxyRegistry.register(new ItemCursedStone()); // TEST Item used for testing Glyphs
         LOGGER.info(Arcana.NAME + " is done loading Blocks and Items.");
     }
 
