@@ -12,12 +12,11 @@ import revrocker99.arcana.init.ModBlocks;
 import revrocker99.arcana.utils.UAsh;
 import vazkii.arl.item.ItemMod;
 
+public class ItemWitheredAsh extends ItemMod {
 
-public class ItemAsh extends ItemMod {
+    public static final String ITEM_ID = "item_withered_ash";
 
-    public static final String ITEM_ID = "item_ash";
-
-    public ItemAsh() {
+    public ItemWitheredAsh() {
         super(ITEM_ID);
         UAsh.setupAsh(this);
         this.setCreativeTab(Arcana.CREATIVE_TAB);
@@ -30,14 +29,14 @@ public class ItemAsh extends ItemMod {
 
     @Override
     public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-        Arcana.LOGGER.info("Ash Right Click Block!"); // TEST
+        Arcana.LOGGER.info("Withered Ash Right Click Block!"); // TEST
 
         ItemStack stack = player.getHeldItem(hand);
         BlockPos newPos = pos.offset(facing);
 
         if (worldIn.isAirBlock(newPos)){
             if (!worldIn.isRemote) {
-                worldIn.setBlockState(newPos, ModBlocks.BLOCK_ASH.getDefaultState());
+                worldIn.setBlockState(newPos, ModBlocks.BLOCK_WITHERED_ASH.getDefaultState());
                 stack.damageItem(1, player);
             }
 

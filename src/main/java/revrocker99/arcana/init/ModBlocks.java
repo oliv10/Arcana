@@ -8,5 +8,6 @@ import revrocker99.arcana.Arcana;
 public class ModBlocks {
 
     public static final Block BLOCK_ASH = null;
+    public static final Block BLOCK_WITHERED_ASH = null;
 
 }

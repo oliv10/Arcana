@@ -8,5 +8,7 @@ import revrocker99.arcana.Arcana;
 public class ModItems {
 
     public static final Item ITEM_ASH = null;
+    public static final Item ITEM_WITHERED_BONE = null;
+    public static final Item ITEM_WITHERED_ASH = null;
 
 }

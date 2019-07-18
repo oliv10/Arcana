@@ -9,11 +9,11 @@ import vazkii.arl.block.BlockModDust;
 
 import java.util.Random;
 
-public class BlockAsh extends BlockModDust {
+public class BlockWitheredAsh extends BlockModDust {
 
-    public static final String ITEM_ID = "block_ash";
+    public static final String ITEM_ID = "block_withered_ash";
 
-    public BlockAsh() {
+    public BlockWitheredAsh() {
         super(ITEM_ID);
 
         this.setCreativeTab(Arcana.CREATIVE_TAB);
@@ -28,7 +28,7 @@ public class BlockAsh extends BlockModDust {
 
     @Override
     public int getColor(IBlockAccess world, IBlockState state, BlockPos pos, int tint) {
-        return 0xDADADA;
+        return 0x222222;
     }
 
     /**
