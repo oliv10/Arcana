@@ -8,6 +8,9 @@ Thumbs.db
 ## ForgeGradle
 /run
 
+## Dependencies
+/libs
+
 ## eclipse
 /.settings
 /.metadata
