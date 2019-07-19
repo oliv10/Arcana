@@ -2,10 +2,11 @@
 item.arcana:item_ash.name=Ash
 item.arcana:item_cursed_stone.name=Cursed Stone
 item.arcana:item_withered_bone.name=Withered Bone
+item.arcana:item_withered_ash.name=Withered Ash
 
 # Blocks
 tile.arcana:block_ash.name=Ash Dust
-tile.arcana:block_withered_ash=Withered Ash
+tile.arcana:block_withered_ash.name=Withered Ash Dust
 
 #Creative Tabs
 itemGroup.arcana=Arcana

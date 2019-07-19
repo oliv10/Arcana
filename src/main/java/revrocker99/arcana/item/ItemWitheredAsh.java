@@ -45,4 +45,9 @@ public class ItemWitheredAsh extends ItemMod {
 
         return EnumActionResult.FAIL;
     }
+
+    @Override
+    public boolean hasEffect(ItemStack stack) {
+        return true;
+    }
 }

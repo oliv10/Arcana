@@ -25,7 +25,7 @@ public class Arcana {
 
     public static final String MOD_ID = "arcana";
     public static final String NAME = "Arcana";
-    public static final String VERSION = "0.1.0";
+    public static final String VERSION = "0.1.1";
     public static final String MC_VERSION = "[1.12.2]";
     public static final String DEPEND = "required-after:autoreglib@[1.3-31,)";
 

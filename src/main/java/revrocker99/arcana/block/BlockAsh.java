@@ -16,7 +16,7 @@ public class BlockAsh extends BlockModDust {
     public BlockAsh() {
         super(ITEM_ID);
 
-        this.setCreativeTab(Arcana.CREATIVE_TAB);
+//        this.setCreativeTab(Arcana.CREATIVE_TAB);
 
         this.setSoundType(SoundType.CLOTH);
     }

@@ -1,6 +1,7 @@
 package revrocker99.arcana.item;
 
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
@@ -49,5 +50,10 @@ public class ItemCursedStone extends ItemMod {
             return EnumActionResult.SUCCESS;
         }
         return EnumActionResult.FAIL;
+    }
+
+    @Override
+    public boolean hasEffect(ItemStack stack) {
+        return true;
     }
 }

@@ -9,6 +9,7 @@ public class ItemWitheredBone extends ItemMod {
 
     public ItemWitheredBone() {
         super(ITEM_ID);
+        this.setCreativeTab(Arcana.CREATIVE_TAB);
     }
 
     public String getModNamespace() {

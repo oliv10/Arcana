@@ -16,7 +16,7 @@ public class BlockWitheredAsh extends BlockModDust {
     public BlockWitheredAsh() {
         super(ITEM_ID);
 
-        this.setCreativeTab(Arcana.CREATIVE_TAB);
+//        this.setCreativeTab(Arcana.CREATIVE_TAB);
 
         this.setSoundType(SoundType.CLOTH);
     }
