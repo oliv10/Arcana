@@ -4,4 +4,4 @@ Arcana is a Magic based Minecraft mod inspired by Blood Magics Arcane Ash and it
 
 # News
 
-This project has been halted for the foreseeable future.
+This project has been halted for the foreseeable future and will be archived.
